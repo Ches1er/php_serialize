@@ -1,3 +1,4 @@
+<a href="/contacts">Contacts</a>
 <div class="container">
     <h3>Add user to the list</h3>
     <form action="/logicfiles/adduser.php" method="post" id="addUserForm">

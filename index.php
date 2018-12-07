@@ -4,7 +4,8 @@ $page=@$_GET['page'];
 
 $_ROUTES=[
     ""=>"main.show",
-    "show"=>"main.show"
+    "show"=>"main.show",
+    "contacts"=>"main.contacts"
 ];
 
 $page=!isset($_ROUTES[$page])?"404":$page;
